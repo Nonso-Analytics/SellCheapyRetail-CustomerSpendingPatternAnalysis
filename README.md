@@ -13,6 +13,19 @@ The company collected data on customer demographics, purchasing history, and oth
 ![AdventureWorksERD](https://github.com/user-attachments/assets/b835abd2-c811-4da3-a4c5-96aec99150f7)
 
 ## METHODOLOGY
+Exploring the ERD and the relationship between each tables;<br>
+I was able to create four new business views pertaining to customer spend to extract insights from<br>
+The scripts to create the four views are <br>
+- Cleaned_Customers,<br>
+- Cleaned Products,<br>
+- Cleaned Sales Territory, and <br>
+- Cleaned Sales.<br>
+
+## ANALYSIS AND INSIGHTS
+
+
+## RECOMMENDATIONS
+
 
 
 
