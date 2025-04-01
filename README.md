@@ -7,7 +7,7 @@
 <br>
 The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
-**Dataset :** Adventureworks Dataset 2019 OLTP  <br>
+**Dataset :** Adventureworks Dataset 2019 OLTP https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak <br>
 <br>
 **Entity Relaionship Diagram**
 ![AdventureWorksERD](https://github.com/user-attachments/assets/b835abd2-c811-4da3-a4c5-96aec99150f7)
