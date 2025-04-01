@@ -27,12 +27,12 @@ SELECT	ps.CustomerID,
    pea.EmailAddress
 FROM [AdventureWorks2019].Person.Person as p
 CROSS APPLY Demographics.nodes('/ns:IndividualSurvey') AS T(C)
-LEFT JOIN [AdventureWorks2019].[Sales].[Customer] AS ps ON p.[BusinessEntityID] = ps.[PersonID] 
-LEFT JOIN [AdventureWorks2019].[Person].[BusinessEntityAddress] AS pb ON ps.[PersonID]  = pb.[BusinessEntityID]
-LEFT JOIN [AdventureWorks2019].[Person].[Address] AS pa ON pb.[AddressID] = pa.[AddressID]
-LEFT JOIN [AdventureWorks2019].[Person].[StateProvince] AS psp ON pa.[StateProvinceID] = psp.[StateProvinceID]
-LEFT JOIN [AdventureWorks2019].[Person].[CountryRegion] AS pcr ON psp.[CountryRegionCode] = pcr.[CountryRegionCode]
-LEFT JOIN [AdventureWorks2019].[Person].[EmailAddress] AS pea ON pb.[BusinessEntityID] = pea.[BusinessEntityID]
+LEFT JOIN AdventureWorks2019.Sales.Customer AS ps ON p.BusinessEntityID = ps.PersonID
+LEFT JOIN AdventureWorks2019.Person.BusinessEntityAddress AS pb ON ps.PersonID  = pb.BusinessEntityID
+LEFT JOIN AdventureWorks2019.Person.Address AS pa ON pb.AddressID = pa.AddressID
+LEFT JOIN AdventureWorks2019.Person.StateProvince AS psp ON pa.StateProvinceID = psp.StateProvinceID
+LEFT JOIN AdventureWorks2019.Person.CountryRegion AS pcr ON psp.CountryRegionCode = pcr.CountryRegionCode
+LEFT JOIN AdventureWorks2019.Person.EmailAddress AS pea ON pb.BusinessEntityID = pea.BusinessEntityID
 WHERE PersonType = 'IN'
 	
 
