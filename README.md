@@ -14,7 +14,7 @@ The company collected data on customer demographics, purchasing history, and oth
 
 ## METHODOLOGY
 Exploring the ERD and the relationship between each tables;<br>
-I was able to create four new business views pertaining to customer spend to extract insights from<br>
+I was able to create four new business views pertaining to customer spend analysis<br>
 The scripts to create the four views are <br>
 - Cleaned_Customers,<br>
 - Cleaned Products,<br>
@@ -47,7 +47,7 @@ RFM analysis is proven method for identifying and categorizing customers based o
 - **34.4% of customers (At Risk + Dormant)** require **proactive intervention** to prevent churn and re-engage them.
 - **Targeted marketing campaigns** based on these segments can **boost customer lifetime value (CLV) and retention rates**.
 
-### Suggested Strategies:
+### Suggested Strategies for each customer segment:
 - **Potential Loyal Customers:** Exclusive promotions, loyalty incentives, and personalized offers.
 - **High-Value Loyal Customers:** VIP programs, personalized experiences, and early access to new products.
 - **At Risk Customers:** Re-engagement emails, retention discounts, and proactive customer support outreach.
