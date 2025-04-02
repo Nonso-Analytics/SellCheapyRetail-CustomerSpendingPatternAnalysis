@@ -11,7 +11,7 @@ The company collected data on customer demographics, purchasing history, and oth
 
 **Dataset :** Adventureworks Dataset 2019 OLTP https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak <br>
 <br>
-**Entity Relaionship Diagram**
+**Entity Relationship Diagram**
 ![AdventureWorksERD](https://github.com/user-attachments/assets/b835abd2-c811-4da3-a4c5-96aec99150f7)
 
 ## METHODOLOGY
