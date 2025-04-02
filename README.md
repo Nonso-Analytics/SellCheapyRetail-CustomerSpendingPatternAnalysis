@@ -24,7 +24,7 @@ The scripts to create the four views are <br>
 - Cleaned Sales.<br>
 
 ## ANALYSIS AND INSIGHTS
-**RFM (Recency, Frequency, Monetary) Analysis** <br
+**RFM (Recency, Frequency, Monetary) Analysis** <br>
 RFM analysis is proven method for identifying and categorizing customers based on their purchasing behavior. By assigning scores to each RFM metric and classifying customers into meaningful segments (e.g., High-Value Loyal Customer, Potential Loyal Customers, At Risk Customer, Dormant Customer), businesses can optimize marketing strategies, improve customer retention, and drive revenue growth.<br>
 
 **RFM Customer Segmentation**
