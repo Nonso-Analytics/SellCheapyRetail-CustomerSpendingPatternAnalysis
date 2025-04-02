@@ -24,6 +24,16 @@ The scripts to create the four views are <br>
 ## ANALYSIS AND INSIGHTS
 **RFM (Recency, Frequency, Monetary) Analysis** <br
 RFM analysis is proven method for identifying and categorizing customers based on their purchasing behavior. By assigning scores to each RFM metric and classifying customers into meaningful segments (e.g., High-Value Loyal Customer, Potential Loyal Customers, At Risk Customer, Dormant Customer), businesses can optimize marketing strategies, improve customer retention, and drive revenue growth.<br>
+
+**RFM Customer Segmentation**
+
+| RFM Score | Customer Segment              |
+|-----------|--------------------------------|
+| 12 - 15   | High-Value Loyal Customers    |
+| 8 - 11    | Potential Loyal Customers     | 
+| 5 - 7     | At-Risk Customers             | 
+| 1 - 4     | Dormant Customers             | 
+
 **Some questions RFM helps answer**
 - Who are our highest-value customers?
 - Which customers are at risk of churning?
